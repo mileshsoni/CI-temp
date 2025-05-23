@@ -5,8 +5,8 @@ def add(a, b):
 def sub(a, b):
     return a - b
 
-
-result1 = add(3, 4)
-result2 = sub(3, 6)
+if __name__ == '__main__':
+    result1 = add(3, 4)
+    result2 = sub(3, 6)
 
 print(result1, result2)
